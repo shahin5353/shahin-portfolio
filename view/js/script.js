@@ -17,6 +17,19 @@ function applyHeader()
 	$('.jumbotron').css({ height: ($(window).height()) +'px' });
 	
 	lazyLoad($('.jumbotron'));
+}
+function lazyLoad(poContainer)
+{
+	/*var lstrSource   = poContainer.attr('data-src');
+	var lstrPosition = poContainer.attr('data-position');
+
+	$('<img>').attr('src', lstrSource).load(function()
+	{
+		poContainer.css('background-image', 'url("'+ lstrSource +'")');
+		poContainer.css('background-position', lstrPosition);
+		poContainer.css('-ms-filter', '"progid:DXImageTransform.Microsoft.AlphaImageLoader(src=\'' + lstrSource + '\', sizingMethod=\'scale\')"');
+		poContainer.css('filter', 'progid:DXImageTransform.Microsoft.AlphaImageLoader(src=\'' + lstrSource + '\', sizingMethod=\'scale\'');
+	});*/
 }	
 
 /* NAVIGATION FUNCTIONS */
